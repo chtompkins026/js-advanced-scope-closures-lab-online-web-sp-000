@@ -20,3 +20,7 @@ function produceTipCalculator(og_bill){
     return ob_bill * (tip); 
   }; 
 }
+
+let tenPercentTip = produceTipCalculator(.10)
+      expect(tenPercentTip(50)).to.equal(5)
+      expect(tenPercentTip(30)).to.equal(3)
