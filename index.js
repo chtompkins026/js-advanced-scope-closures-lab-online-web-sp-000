@@ -12,15 +12,9 @@ function produceDrivingRange(c){
   };
 }
 
-
-
-
 function produceTipCalculator(og_bill){
   return function(tip){ 
-    return ob_bill * (tip); 
+    return og_bill * (tip); 
   }; 
 }
 
-let tenPercentTip = produceTipCalculator(.10)
-      expect(tenPercentTip(50)).to.equal(5)
-      expect(tenPercentTip(30)).to.equal(3)
