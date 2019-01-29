@@ -18,4 +18,13 @@ function produceTipCalculator(og_bill){
   }; 
 }
 
+function createDriver(){
+  let driverID = 0; 
+  
+  return class {
+    constructor()
+  }  
+}
+
+
 
