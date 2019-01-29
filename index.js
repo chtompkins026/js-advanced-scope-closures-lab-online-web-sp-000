@@ -17,6 +17,6 @@ function produceDrivingRange(c){
 
 function produceTipCalculator(og_bill){
   return function(tip){ 
-    return ob_bill * (1+tip); 
+    return ob_bill * (tip); 
   }; 
 }
