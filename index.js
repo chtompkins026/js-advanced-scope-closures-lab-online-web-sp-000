@@ -3,6 +3,7 @@ produceDrivingRange(d1, d2){
     let myRe = /[0-9]/g;
     let a1 = d1.match(myRe).join('');
     let a2 = d2.match(myRe).join('');
+    if Math.
   };
 }
 
