@@ -1,9 +1,8 @@
 produceDrivingRange(d1, d2){ 
    return function(checker) {
-    let myRe = /[0-9]/g;;
-let sentence = '10th'; 
-
-let jason = sentence.match(myRe).join('');
+    let myRe = /[0-9]/g;
+    let a1 = d1.match(myRe).join('');
+    let a2 = d2.match(myRe).join('');
   };
 }
 
